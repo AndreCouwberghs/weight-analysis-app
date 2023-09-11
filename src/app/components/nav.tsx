@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from 'next/navigation';
 
 export default function Nav() {
+    const pathname = usePathname();
+
     return <ul>
         <li>
             <Link href="/">Home</Link>
