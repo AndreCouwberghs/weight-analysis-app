@@ -8,13 +8,13 @@ export default function Nav() {
 
     return <ul>
         <li>
-            <Link href="/">Home</Link>
+            <Link className={pathname === "/" ? "active-menu-link" : ""} href="/">Home</Link>
         </li>
         <li>
-            <Link href="/about">About</Link>
+            <Link className={pathname === "/about" ? "active-menu-link" : ""} href="/about">About</Link>
         </li>
         <li>
-            <Link href="/credentials">Credentials</Link>
+            <Link className={pathname === "/credentials" ? "active-menu-link" : ""} href="/credentials">Credentials</Link>
         </li>
     </ul>;
 }
