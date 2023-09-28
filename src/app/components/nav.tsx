@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Nav() {
     const pathname = usePathname();
 
-    return <ul>
+    return <ul className="nav">
         <li>
             <Link className={pathname === "/" ? "active-menu-link" : ""} href="/">Home</Link>
         </li>

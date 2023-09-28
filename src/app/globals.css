@@ -10,3 +10,7 @@ body {
 .active-menu-link {
   background-color: gray;
 }
+
+.nav li {
+  list-style: none;
+}
