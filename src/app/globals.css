@@ -7,10 +7,6 @@ body {
   margin: 0 auto;
 }
 
-.active-menu-link {
-  background-color: gray;
-}
-
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -31,6 +27,19 @@ body {
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
+}
+
+.menu a {
+  color: brown;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.active-menu-link {
+  background-color: rgb(220, 220, 220);
 }
 
 .menu-button-container {
